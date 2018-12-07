@@ -147,7 +147,7 @@ height: auto;
 }
 
 /*Big Screens*/
-@media only screen and (min-width: 9001px) {
+@media only screen and (min-width: 901px) {
 /*
 
 .bigpage {
