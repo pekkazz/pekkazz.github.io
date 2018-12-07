@@ -71,22 +71,24 @@ height: auto;
 
 .smallScreenTexts h1 {
   text-align: center;
-  font-size: 22px;
+  font-size: 29px;
 }
 
 .smallScreenTexts h2 {
   text-align: center;
-  font-size: 21px;
+  font-size: 26px;
 }
 
 
 
 .topnav {
-  transform: translateY(-2px);
+  transform: translateY(-4px);
   overflow: hidden;
+  font-size: 52px;
 
-/*valikkopalkkien väri*/
-  background-color: #96775b;
+/*valikkopalkkien vÃ¤ri*/
+
+  background-color: #9e8975;
   position: relative;
 }
 
@@ -96,9 +98,8 @@ height: auto;
 
 .topnav a {
   color: white;
-  padding: 14px 16px;
+  padding: 14px 20px;
   text-decoration: none;
-  font-size: 17px;
   display: block;
 }
 
