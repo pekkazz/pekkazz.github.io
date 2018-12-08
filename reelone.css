@@ -29,7 +29,7 @@ time, mark, audio, video {
 /* Responsive properties */
 
 /*Small Screens*/
-@media screen and (max-width: 40em) {
+@media screen and (max-width: 41em) {
 
 	.bigScreen {
 		display: none;
