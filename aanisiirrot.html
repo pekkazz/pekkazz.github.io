@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> 
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
 
@@ -22,8 +22,116 @@
 </head>
 
 <body>
+  <!--smallScreen used for screen smaller than 601px-->
+  <div class = "smallScreen">
+    <div class = "contentDiv">
 
-<div id="wrapper"> <!-- wrapper begin -->
+      <!-- header -->
+      <div class = "headerDiv">
+          <img src="img/header4.png" alt="Reel One Oy logo" title="Reel One pääsivu">
+        </div> <!--header end -->
+
+        <!--navigation bar-->
+        <!-- Top Navigation Menu -->
+
+        <div class="topnav">
+          <a href="#home" class="active menuText">Ilmalankatu 2 &#9679; Kaivokatu 10</a>
+          <div id="myLinks">
+            <a href="index.html" class="navbarLinks">ALKUUN</a>
+            <a href="filminsiirrot.html" class="navbarLinks">Filminsiirrot</a>
+            <a href="kaitafilmi.htm" class="navbarLinks">Kaitafilminsiirrot</a>
+            <a href="digitointi.html" class="navbarLinks">Digitoinnit</a>
+            <a href="kopionnit.html" class="navbarLinks">Kopioinnit</a>
+            <a href="editoinnit.html" class="navbarLinks">Editoinnit</a>
+            <a href="aanisiirrot.html" class="navbarLinks">Äänisiirrot</a>
+            <a href="transkoodaukset.html" class="navbarLinks">Transkoodaukset</a>
+            <a href="mediakorjaukset.html" class="navbarLinks">Mediakorjaukset</a>
+            <a href="max8.html" class="navbarLinks">Max 8</a>
+          </div>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+
+
+        <!--Sivun teksti alku-->
+
+        <div class = "smallScreenTexts"> <!-- content begin -->
+          <div class = mobileText>
+
+            <h2>Äänimateriaalin digitoinnit</h2>
+            <p>Siirrämme kela-, ja ääninauhat, C-kasetit  digitaaliseen muotoon CD:lle, muistitikulle tai kovalevylle tiedostoksi (wav, mp3, Ipod, etc...).
+            Myös sanelukoneiden mikrokasettisiirrot saatte kauttamme digitaaliseen muotoon..</p>
+
+            <img class="centered" src="img/aanimateriaalin.jpg" alt="Kelanauhuri">
+            
+            <h2>Ota yhteyttä</h2>
+            <p>Soita tai <a href="mailto:reelone@reelone.fi">lähetä sähköpostia</a> niin teemme hinta-arvion. Filmit tai muun materiaalin voit joko lähettää postissa tai tuoda paikanpäälle toimipisteeseemme.
+              <p>Voit maksaa pankki- ja luottokorteilla.<br><br>
+              </p>
+
+              <img class = "mobileImg" src="img/reelone_pasila.jpg" alt="Pasila MTV3">
+              <p class="centerText">
+
+                <b>Filmipalvelut</b><br>
+                09-2787915<br>
+                Pasilassa MTV3 tiloissa<br>
+                Ilmalankatu 2<br>
+                00240 Helsinki<br>
+                Ma-Pe 9-17<br>
+                <a href="mailto:reelone@reelone.fi">reelone@reelone.fi</a><br><br>
+              </p>
+              <img class = "mobileImg" src="img/reelone_lasipalatsi.jpg" alt="Lasipalatsi">
+              <p class="centerText">
+
+                <b>Videopalvelut</b><br>
+                09-6844450<br>
+                Kaivokatu 10 katutaso<br>
+                00100 Helsinki<br>
+                (Rautatieasemaa vastapäätä)<br>
+                Ma-Pe 9-17<br>
+                <a href="mailto:reelone@reelone.fi">reelone@reelone.fi</a><br>
+                <br>
+                <br>
+              </p>
+
+              <p class="centerText">Filmi &#9679; Video &#9679; Digital Media &#9679; CD-R/DVD &#9679; Audio</p>
+              <ul>
+                <li class="centerText moreSpaceBetweenLines infoText">&copy; Reel One 2018</li>
+                <li class="centerText moreSpaceBetweenLines infoText">+358 9 2787915</li>
+                <li class="centerText moreSpaceBetweenLines infoText"><a href="mailto:reelone@reelone.fi">reelone@reelone.fi</a></li>
+              </ul>
+
+              <p>
+                <br>
+              </p>
+            </div>
+          </div> <!-- content end -->
+
+          <!--Sivun teksti loppu-->
+
+
+          <div> <!-- footer begin -->
+          </div> <!-- footer end -->
+
+          <script>
+          function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+              x.style.display = "none";
+            } else {
+              x.style.display = "block";
+            }
+          }
+          </script>
+
+        </div>
+      </div>
+
+
+<!--bigScreen used for screen bigger than 600px-->
+<div class ="bigScreen" id="wrapper"> <!-- wrapper begin -->
 
 	<div id="header"> <!-- header begin -->
 		<a href="index.html"><img src="img/header4.png" alt="Reel One Oy logo" ></a>	</div> <!--header end -->
@@ -56,8 +164,8 @@ Myös sanelukoneiden mikrokasettisiirrot saatte kauttamme digitaaliseen muotoon.
 
 <img class="centered" src="img/aanimateriaalin.jpg" alt="Kelanauhuri">
 
-		</div> <!-- content end -->	
-        
+		</div> <!-- content end -->
+
 		<div id="sidebar_1"> <!-- sidebar_1 begin -->
 
 			<div class="sidebar_top">
@@ -67,15 +175,15 @@ Myös sanelukoneiden mikrokasettisiirrot saatte kauttamme digitaaliseen muotoon.
 
 				<p>
 				<img src="img/reelone_pasila.jpg" alt="Pasila MTV3">
-				<b>Filmipalvelut</b><br>		
+				<b>Filmipalvelut</b><br>
 				09-2787915<br>
 				Pasilassa MTV3 tiloissa<br>
 				Ilmalankatu 2<br>
-				00240 Helsinki<br>				
+				00240 Helsinki<br>
 				Ma-Pe 9-17<br>
                 <a href="mailto:reelone@reelone.fi">reelone@reelone.fi</a><br>
 				</p>
-		
+
 			</div><!-- sidebar content end -->
 
 			<div class="sidebar_bottom">
@@ -99,7 +207,7 @@ Myös sanelukoneiden mikrokasettisiirrot saatte kauttamme digitaaliseen muotoon.
 				00100 Helsinki<br>
 				(Rautatieasemaa vastapäätä)<br>
 
-			
+
 				Ma-Pe 9-17<br>
                 <a href="mailto:reelone@reelone.fi">reelone@reelone.fi</a><br>
 				</p>
@@ -107,8 +215,8 @@ Myös sanelukoneiden mikrokasettisiirrot saatte kauttamme digitaaliseen muotoon.
 			</div><!-- sidebar content end -->
 
 			<div class="sidebar_bottom">
-			</div>		
-            
+			</div>
+
         </div> <!-- sidebar_2 end -->
 
 		<div id="sidebar_3"> <!-- sidebar_3 begin -->
@@ -117,7 +225,7 @@ Myös sanelukoneiden mikrokasettisiirrot saatte kauttamme digitaaliseen muotoon.
 			</div>
 
 			<div class="sidebar_mid"><!-- sidebar content begin -->
-	
+
 <p>
 <!-- Facebook Badge START --><a href="https://www.facebook.com/pages/Reel-One-Filmipalvelut-Videopalvelut/181833418530194" style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;" title="Reel One Filmipalvelut / Videopalvelut"></a><br><a href="https://www.facebook.com/pages/Reel-One-Filmipalvelut-Videopalvelut/181833418530194" title="Reel One Filmipalvelut / Videopalvelut"><img src="https://www.facebook.com/badge/181833418530194.1705.1659109302.png" style="border: 0px;" alt="Facebook"></a><br><a href="https://www.facebook.com/business/dashboard/" style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;" title="Tee oma merkkisi!"></a><!-- Facebook Badge END -->
 </p>
@@ -130,8 +238,8 @@ Myös sanelukoneiden mikrokasettisiirrot saatte kauttamme digitaaliseen muotoon.
 			</div>
 
 		</div> <!-- sidebar_3 end -->
-        
-        
+
+
 	<div style="clear:both;"></div><!-- ugly hack -->
 	</div> <!-- container end -->
 
@@ -150,4 +258,4 @@ Myös sanelukoneiden mikrokasettisiirrot saatte kauttamme digitaaliseen muotoon.
 
 </div><!-- wrapper end -->
 </body>
-</html> 
+</html>
