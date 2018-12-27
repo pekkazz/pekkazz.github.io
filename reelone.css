@@ -63,7 +63,8 @@ time, mark, audio, video {
 		vertical-align: baseline;
 		padding: 15px;
 		border-radius: 8px;
-		font-family: "Courier";
+		font-family: "Arial";
+
 		background-color: white;
 		border-radius: 20px;
 	}
